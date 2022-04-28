@@ -23,7 +23,7 @@ const start = async () => {
 
         try {
             if (text === '/start') {
-                return bot.sendMessage(chatId, 'Добро пожаловать в телеграм бот для Семена, если вы Семен используйте команду /semen.')
+                return bot.sendMessage(chatId, 'Добро пожаловать в телеграм бот,  команду /game.')
             }
             if (text === '/game') {
                 return startGame(chatId);
